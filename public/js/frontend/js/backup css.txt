@@ -1,0 +1,388 @@
+body {
+    margin: 0px;
+    padding: 0px;
+    overflow-x: hidden;
+}
+
+/*Other*/
+navbar-btn2 {
+    background-color: #1570a6;
+    border-radius: 0px;
+}
+
+/*End Other*/
+/* ============ Nav Item only desktop view ============ */
+@media all and (min-width: 992px) {
+    .dropdownmenu {
+        display: block;
+        opacity: 0;
+        visibility: hidden;
+        transition: .3s;
+        margin-top: 0px;
+    }
+
+    .navb .navitem:hover .navlink {
+        color: red;
+    }
+
+    .navb .dropdownmenu.fade-down {
+        top: 80%;
+        transform: rotateX(-75deg);
+        transform-origin: 0% 0%;
+
+    }
+
+    .navb .dropdownmenu.fade-up {
+        top: 180%;
+    }
+
+    .navb .navitem:hover .dropdownmenu {
+        transition: .3s;
+        opacity: 1;
+        visibility: visible;
+        top: 100%;
+        transform: rotateX(0deg);
+    }
+}
+
+.dropdown-item:focus,
+.dropdown-item:hover {
+    color: #16181b;
+    text-decoration: none;
+}
+
+.dropdownitem:focus,
+.dropdownitem:hover {
+    color: #16181b;
+    text-decoration: none;
+    background-color: darkred;
+}
+
+.dropdown-item {
+    padding: 12px;
+    font-size: 14px;
+    color: black;
+}
+
+.dropp {
+    font-size: 13px;
+
+}
+
+.nav-top {
+    line-height: 2px;
+    color: var(--secondary);
+    background-color: var(--secondary);
+}
+
+.fax {
+    font-size: 24px;
+}
+
+.drop-1 {
+    font-size: 13.5px;
+}
+
+.drop-2 {
+    margin-top: 2px;
+}
+
+.drop {
+    background-color: #a00d0d;
+    padding: 6px;
+}
+
+.all-features {
+    background-color: #cc124b;
+    list-style: none;
+    font-size: 14px;
+}
+
+/* ============ Nav Item desktop view .end// ============ */
+
+/* ============ Nav Item 2 ============ */
+.old-paper {
+    padding: 5px 5px;
+    margin-bottom: 5px;
+}
+
+#datepick {
+    height: 27px;
+    padding: 0;
+    margin: 0;
+}
+
+.nav-2 {
+    background-color: #08669f;
+    color: white;
+}
+
+.select {
+    padding: 2px;
+}
+
+.sel-btn {
+    height: 29px;
+    margin-top: 1px;
+    font-size: 14px;
+    border: 1px solid #a4a4a4;
+    background: linear-gradient(#f6f6f6, #dedede);
+    line-height: 10px;
+}
+
+/* ============ End Nav Item 2 ============ */
+
+/* ============ Nav Item 3 ============ */
+.nav-three {
+    color: white;
+    background-color: #08669f;
+}
+
+.nav-3 {
+    background-color: #efefef;
+    padding: 7px;
+    border-top: 7px solid #1570a6;
+}
+
+#demo2 {
+    padding-left: 64px;
+}
+
+.Pag-control-back {
+    position: absolute;
+    left: 0px;
+}
+
+.top-3 {
+    background-color: #efefef;
+    padding: 7px;
+    border-top: 7px solid #1570a6;
+}
+
+.paginate-page {
+    background-color: red;
+    color: white;
+    font-size: 15px;
+    text-decoration: none;
+}
+
+.updat {
+    margin-top: 1px;
+}
+
+.paginate-one {
+    height: 36px;
+    position: relative;
+    font-size: 20px;
+    font-family: SutonnyMJ, Times New Roman;
+    width: 100%;
+}
+
+.paginate-one a {
+    font-family: SutonnyMJ, Times New Roman;
+    line-height: 15px;
+    height: 18px;
+    cursor: pointer;
+    margin: 2px;
+    float: left;
+}
+
+a:hover {
+    color: white;
+}
+
+span.jPag-current {
+    cursor: default;
+    font-weight: normal;
+    line-height: 15px;
+    height: 18px;
+    padding: 2px 8px 0 8px;
+    margin: px;
+    float: left;
+}
+
+.paginate-one span {
+    cursor: pointer;
+}
+
+ul.Pag-pages {
+    float: left;
+    list-style-type: none;
+    margin: 0px 0px 0px 0px;
+    padding: 0px;
+}
+
+ul.Pag-pages li {
+    display: inline;
+    float: left;
+    padding: 0px;
+    margin: 0px;
+}
+
+ul.Pag-pages li.active {
+    border: 1px solid red;
+}
+
+ul.Pag-pages li a {
+    float: left;
+    padding: 1px 8px 0 8px;
+}
+
+.page-heading {
+    font-weight: 700;
+    font-size: 17px;
+}
+
+.next-page {
+    margin-top: 1px;
+}
+
+.Pag-control-front a {
+    color: rgb(136, 136, 136);
+    background-color: red;
+    margin-top: 10px;
+    color: white;
+    font-size: 15px;
+    text-decoration: none;
+}
+
+/* ============ End Nav Item 3 ============ */
+
+/* ============  Body Item Sidebar Menu ============ */
+.scrolll {
+    overflow-y: scroll;
+    height: 1430px;
+}
+
+.heading {
+    color: black;
+    font-size: 16px;
+}
+
+.nav-pills .nav-link.active,
+.nav-pills .show > .nav-link {
+    color: #fff;
+    background-color: #f1f1f1;
+    border: 2px solid #a2859b;
+}
+
+.acc {
+    border: 2px solid #f1f1f1;
+}
+
+/* ============ End Body Item Sidebar Menu ============ */
+
+/* ============ Body Details ============ */
+:root {
+    --box-shadow: 0px 10px 30px 10px rgba(57, 56, 61, 0.205);
+}
+
+.img-popup {
+    cursor: all-scroll;
+    transition: all 0.5s ease;
+}
+
+.div :hover {
+    box-shadow: var(--box-shadow);
+}
+
+.img-popup:hover {
+    transform: scale(1.2);
+}
+
+.body-content {
+    background-color: #00968733;
+    border-left: 4px solid #08669f;
+    border-right: 4px solid #08669f;
+}
+
+.content-2 {
+    color: #8b1970;
+    font-size: 18px;
+    font-weight: 500;
+}
+
+.page-heading {
+    font-size: 15px;
+    color: #8b1970;
+}
+
+.page-head {
+    color: #8b1970;
+}
+
+.body-detel {
+    background-color: #00968733;
+    border-left: 4px solid #08669f;
+    border-right: 4px solid #08669f;
+}
+
+/* ============ End Details ============ */
+
+/* ============ All Page ============ */
+.con-title {
+    font-size: 14px;
+    background-color: #146495;
+    color: white;
+    padding: 2px;
+}
+
+.con-document img {
+    width: 250px;
+    height: 270px;
+    filter: grayscale(100%);
+
+}
+
+.con-document :hover img {
+
+    filter: contrast(20deg);
+}
+
+/* ============ End All Page ============ */
+
+/* ============ Footers ============ */
+.footer {
+    background-color: #f3e8e8;
+    color: black;
+    min-height: 190px;
+}
+
+.sub-footer {
+    color: #add8e6;
+    font-size: 14.05px;
+    background: #0f0808;
+}
+
+#aa {
+    color: #faebd7;
+    text-decoration: none;
+}
+
+.footer-img {
+    height: 80px;
+}
+
+.no-gutters {
+    margin-right: 0;
+    margin-left: 0;
+    font-size: 15px;
+    line-height: 25px;
+}
+
+.footer-txt {
+    text-align: center;
+    font-size: 16px;
+    padding: 5px;
+    color: black;
+    font-size: normal;
+    line-height: 22px;
+}
+
+.md-text-center a {
+    color: #428f49;
+    text-decoration: none;
+    font-size: 15px;
+}
+
+/* ============ End Footers ============ */
